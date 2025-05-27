@@ -3,6 +3,7 @@ import Hero from './Hero';
 import AboutUs from './AboutUs';
 import HomeService from './HomeService';
 import HomeContact from '../HomeContact/HomeContact';
+import HomeServiceDB from './HomeServiceDB';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <AboutUs />
             <HomeService />
             <HomeContact />
+            <HomeServiceDB />
         </div>
     );
 };
