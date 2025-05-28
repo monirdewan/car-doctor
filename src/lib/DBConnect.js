@@ -3,7 +3,8 @@ import { MongoClient, ServerApiVersion } from 'mongodb';
 const uri = process.env.DB_URL;
 
 export const collectionNameObj = {
-  servicesCollection:"services"
+  servicesCollection:"services", 
+  userCollection:"test_user"
 }
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
